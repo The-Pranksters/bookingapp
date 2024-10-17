@@ -74,7 +74,7 @@ onMounted(() => {
     <div class="row">
         <div class="col-lg-12">
           <div class="icon">
-            <nuxt-link class="back-button" to="http://localhost:3000/bookings"><i class="fas fa-arrow-left"></i> Kembali</nuxt-link>
+            <nuxt-link class="back-button" to="/bookings"><i class="fas fa-arrow-left"></i> Kembali</nuxt-link>
           </div>
           </div>
             <h2 class="text">JADWAL BOOKING</h2>
