@@ -3,7 +3,7 @@
       <nav class="fixed-top bg-white">
         <div class="content flex_space">
           <div class="logo ms-3">
-            <img src="/assets/img/logow.png">
+            <img src="/assets/img/logow.png" alt="LogoSMKN4">
           </div>
           <div class="navlinks">
             <ul id="list">

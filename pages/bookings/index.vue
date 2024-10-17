@@ -175,7 +175,7 @@ onMounted(() => {
 
 
   <div class="footer">
-    <footer>The Pranksters</footer>
+    <footer class="text-white">The Pranksters</footer>
   </div>
   
   </template>
