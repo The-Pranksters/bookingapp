@@ -1,7 +1,7 @@
 <template>
   <div class="badan">
     <div class="login-container">
-        <h2>Login to website.</h2>
+        <h2>Login</h2>
         <form @submit.prevent="login" id="loginForm">
             <div class="input-group">
                 <input class="rounded-5" v-model="email" type="email" id="email" name="email" placeholder="Email" required>
@@ -15,7 +15,7 @@
                 <button type="submit">Login</button>
           </form>
             <p id="message">{{ message }}</p>
-            <p class="daftar-link">Apakah Anda belum memiliki akun? <NuxtLink to="http://localhost:3000/akun">Daftar di sini</NuxtLink>
+            <p class="daftar-link">Apakah Anda belum memiliki akun? <NuxtLink to="/akun">Daftar di sini</NuxtLink>
             </p>
         
     </div>
