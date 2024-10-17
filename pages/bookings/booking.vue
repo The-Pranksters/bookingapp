@@ -102,7 +102,7 @@ onMounted(fetchAlatOptions)
     <div class="row justify-content-center tinggi p-5">
       <div class="col-5 bg-white tumpul p-3">
         <div class="icon">
-        <nuxt-link class="back-button" to="http://localhost:3000/bookings"><i class="fas fa-arrow-left"></i> Kembali</nuxt-link>
+        <nuxt-link class="back-button" to="/bookings"><i class="fas fa-arrow-left"></i> Kembali</nuxt-link>
       </div>
       <h2>Booking Ruang Aula</h2>
       <!-- <h1>pilih: {{ selectedAlat }}</h1> -->
@@ -129,14 +129,6 @@ onMounted(fetchAlatOptions)
                   <input v-model="formData.jamSelesai" type="time" @change="calculateTotalHarga" id="jamSelesai" name="jamSelesai" required>
               </div>
           </div>
-          <!-- <div class="input-group">
-            <i class="fas fa-box"></i>
-            <label for="paket" class="form-label visually-hidden">Pilih Paket</label>
-            <select v-model="formData.paket" id="paket" class="form-select" required>
-              <option value="" disabled>Pilih paket</option>
-              <option v-for="item in paketOptions" :key="item.id" :value="item.id">{{ item.nama }}</option>
-            </select>
-          </div> -->
           <div class="input-group">
             <i class="fas fa-box"></i>
             <label for="alat" class="form-label ms-4 mt-1">Pilih Alat</label>
