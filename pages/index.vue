@@ -1,7 +1,7 @@
 <template>
   <div class="badan">
     <div class="login-container">
-        <h2>Login</h2>
+        <h2>Login to website.</h2>
         <form @submit.prevent="login" id="loginForm">
             <div class="input-group">
                 <input class="rounded-5" v-model="email" type="email" id="email" name="email" placeholder="Email" required>
