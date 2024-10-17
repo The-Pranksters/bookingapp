@@ -8,7 +8,7 @@
           <div class="navlinks">
             <ul id="list">
                 <li>
-                  <nuxt-link to="http://localhost:3000/bookings/booking">
+                  <nuxt-link to="s/bookings/booking">
                       <button class="primary-btn">Booking</button>
                   </nuxt-link>
                 </li>
