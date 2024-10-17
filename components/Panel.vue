@@ -9,12 +9,12 @@
     <h4 class="text-light text-center">{{ namaLengkap }}</h4>
     <ul class="nav flex-column">
       <li class="nav-item">
-        <NuxtLink to="http://localhost:3000/admin" class="nav-link">
+        <NuxtLink to="/admin" class="nav-link">
           <i class="bi bi-house-door-fill"></i> Dashboard
       </NuxtLink>
       </li>
       <li class="nav-item">
-        <NuxtLink to="http://localhost:3000/admin/answer" class="nav-link">
+        <NuxtLink to="/admin/answer" class="nav-link">
           <i class="bi bi-calendar-check"></i> Booking
         </NuxtLink>
       </li>
