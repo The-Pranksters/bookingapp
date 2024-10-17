@@ -3,7 +3,7 @@
     <!-- Sidebar -->
 <div class="sidebar d-flex flex-column p-3 text-white">
   <div class="logo">
-    <img src="/assets/img/logopo.png" alt="">
+    <img src="/assets/img/logopo.webp" alt="logoSMK">
   </div>
   <div class="text">
     <h4 class="text-light text-center">{{ namaLengkap }}</h4>
